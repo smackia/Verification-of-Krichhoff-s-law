@@ -1,0 +1,136 @@
+ @font-face { font-family:Digital; src:url('DS-DIGIB.TTF'); }
+#gauge {
+    height: 200px;
+    width: 80%;
+  border-style: groove;
+  border-radius: 80px;
+  margin-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+#kvl {
+    height: 200px;
+    width: 80%;
+  border-style: groove;
+  border-radius: 80px;
+  margin-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+
+.ammeter{
+  border-style: groove;
+border-radius: 30px;
+background-color: #333;
+}
+
+.ammeter_container{
+  position: relative;
+      top: 30px;
+      right: 5px;
+  }
+
+.measure_section{
+  display: none;
+}
+
+input[type="text"]{
+        font-family:Digital;
+        font-size: 20px;
+     }
+     .meter-input{
+       text-align: center;
+    width: 20%;
+    margin-left: 150px;
+    margin-bottom: 5px;
+    border-radius: 100px;
+     }
+
+.plus{
+  display: inline-block;
+  width: 20px;
+    border-style: groove;
+    height: 19px;
+    background-color: red;
+    border-radius: 100px;
+    margin-bottom: 8px;
+    margin-left: 80px;
+}
+.plus1{
+    display: inline-block;
+    width: 20px;
+      border-style: groove;
+      height: 19px;
+      background-color: red;
+      border-radius: 100px;
+      position: absolute;
+      top: 890px;
+      left: 490px;
+  }
+  .r1_measure{
+    position: absolute;
+    width: 142px;
+    height: 45px;
+  }
+
+  .redplug{
+    width: 15px;
+    position: absolute;
+    left: 490px;
+    top: 818px;
+  }
+.blackplug{
+  position: absolute;
+    width: 15px;
+    left: 685px;
+    top: 820px;
+}
+.minus1{
+  display: inline-block;
+  width: 20px;
+    border-style: groove;
+    height: 19px;
+    background-color:#333;
+    border-radius: 100px;
+    position: absolute;
+    right: 500px;
+    top: 890px;
+}
+.minus{
+  display: inline-block;
+  width: 20px;
+    border-style: groove;
+    height: 19px;
+    background-color:#333;
+    border-radius: 100px;
+    margin-bottom: 8px;
+    margin-left: 170px;
+}
+.connector{
+  padding-bottom: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 5px;
+    color: white;
+}
+
+
+
+.kvl_blackplug{
+  top: 805px;
+    left: 682px;
+    width: 18px;
+    position: absolute;
+}
+
+.kvl_redplug{
+  width: 18px;
+    position: absolute;
+    left: 490px;
+    width: 18px;
+    top: 805px;
+}
